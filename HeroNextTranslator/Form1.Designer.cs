@@ -140,7 +140,8 @@
             this.lbOccurances.Name = "lbOccurances";
             this.lbOccurances.Size = new System.Drawing.Size(419, 319);
             this.lbOccurances.TabIndex = 3;
-            this.lbOccurances.SelectedValueChanged += new System.EventHandler(this.lbOccurances_SelectedValueChanged);
+            this.lbOccurances.SelectedIndexChanged += new System.EventHandler(this.lbOccurances_SelectedIndexChanged);
+            this.lbOccurances.SelectedValueChanged += new System.EventHandler(this.lbOccurences_SelectedValueChanged);
             // 
             // pgbProgress
             // 
